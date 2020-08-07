@@ -1,0 +1,12 @@
+pip install opencv-python
+pip install numpy
+pip install pandas
+pip install matplotlib
+
+link for haarcascade_frontalface_default.xml: https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
+
+To overcome the error of cv2 in VisualStudioCode
+-> ctrl + shift + p  -> openSettings(json)
+-> add 
+    "python.linting.pylintArgs": ["--generate-members"]
+    to the existing code
